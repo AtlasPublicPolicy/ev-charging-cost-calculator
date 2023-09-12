@@ -65,6 +65,8 @@ if an error occurs with the script, it will be recorded in a log file within the
 
 # Using the outputs and interpreting results
 
+Output files include a sheet for annual total and average energy cost and monthly total and average energy cost. Outputs also include total costs for all billing parts (demand (flat and tiered), energy (flat, tiered or TOU) and attributes of each rate including the URDB ID, rate name, utility, description and sector. Rates that are flagged with FALSE on the 'rate supported' field are unsupported by the tool. They are preserved in the output to explicitly show whether a rate of interest is supported or not.
+
 While there is limited pre-filtering built into the tool, it does not catch all inapplicable rates, and expressly does not filter rates that are unlikely to be used based on power usage. For example, when modeling a modest amount of power demand, you would not wish to keep output rates that are typically used for large power users, as those both are unlikely to be used and would incur a high cost due to large demand charges. 
 
 Users should take care to filter the output data to remove rates that are not applicable to their use case. We do not advise summarizing results of the calculator without first ensuring that those inapplicable rates are removed.
