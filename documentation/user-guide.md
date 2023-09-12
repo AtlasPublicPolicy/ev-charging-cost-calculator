@@ -1,6 +1,8 @@
 # User Guide
 This tool requires a basic understanding of command line interfaces, familiarity with Excel and comfort installing python on your user machine. It does not require any programming knowledge or experience. However, because the tool ships with minimal error handling built-in, some familiarity with Python is helpful for troubleshooting any edge-case errors that are not expressly handled by the tool. 
 
+In order to appropriately interpret outputs, users should have a basic understanding of utility rates and their applicability to different customers. Users must supply their own charging energy and power curves to run this tool.
+
 ## Installation
 
 1. Download the latest release of the tool from the [releases page](releases page) and unzip the file to a directory of your choice on your computer, or clone the repository to your computer using git. If you are not familiar with git, see the [git documentation](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for instructions on how to install git on your computer and clone a repository.
@@ -59,11 +61,15 @@ Once you have completed the dialog options the tool will present a summary of in
 
 The tool will run automatically, and will display a progress bars or in progress messages as it runs. Upon completion the data will be saved in the output file and the user is given the option to open the output file in Excel. Users can select to run the rate calculator again from the main menu or exit the tool.
 
+if an error occurs with the script, it will be recorded in a log file within the log directory. While support for the tool is limited, we encourage users to note any errors they find in the issues section of the repository.
+
 # Using the outputs and interpreting results
 
-While there is limited pre-filtering built into the tool, it does not catch all inapplicable rates, and expressly does not filter rates that are unlikely to be used based on power usage. For example, when modeling a modest amount of required demand, you would not wish to keep output rates that are typically used for large power users, as those both are unlikely to be used and would incur a high cost due to large demand charges.
+While there is limited pre-filtering built into the tool, it does not catch all inapplicable rates, and expressly does not filter rates that are unlikely to be used based on power usage. For example, when modeling a modest amount of power demand, you would not wish to keep output rates that are typically used for large power users, as those both are unlikely to be used and would incur a high cost due to large demand charges. 
 
-Users should take care to filter the output data to remove rates that are not applicable to their use case. Output data includes the URDB ID which can be used to match rates to a user-supplied subset of rates of interest or, used to look up a rate directly in the URDB. For fast access to rate information, append the rate id to the end of the following URL: https://apps.openei.org/USURDB/rate/view/ and paste it into your browser. The output also includes the name and descriptions of the rates.
+Users should take care to filter the output data to remove rates that are not applicable to their use case. We do not advise summarizing results of the calculator without first ensuring that those inapplicable rates are removed.
+
+Output data includes the URDB ID which can be used to match rates to a user-supplied subset of rates of interest or, used to look up a rate directly in the URDB. For fast access to rate information, append the rate id to the end of the following URL: https://apps.openei.org/USURDB/rate/view/ and paste it into your browser. The output also includes the name and descriptions of the rates.
 
 # Modules and other files
 
