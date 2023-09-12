@@ -2,7 +2,7 @@
 
 **NOTE: THIS IS A DEVELOPMENT VERSION OF THIS TOOL**
 
-The EV Charging Cost Calculator is a python-based tool that calculates the utility costs for charging a private electric vehicle (or fleet of electric vehicles on the same meter) or a public electric vehicle charging station. The main purpose of this tool is to enable cross-rate analyses of charging costs for any EV charging scenario. For example, it could be used to calculate the cost to operate a public DCFC charger across all supported utility rates available in the [OpenEI Utility Rate Database](https://openei.org/wiki/Utility_Rate_Database).
+The EV Charging Cost Calculator is a python-based tool that calculates the electricity costs for charging a private electric vehicle (or fleet of electric vehicles on the same meter) or a public electric vehicle charging station. The main purpose of this tool is to enable cross-rate analyses of charging costs for any EV charging scenario. For example, it could be used to calculate the cost to operate a public DCFC charger across all supported utility rates available in the [OpenEI Utility Rate Database](https://openei.org/wiki/Utility_Rate_Database).
 
 The EV Rate Calculator is licensed under the [MIT License](https://opensource.org/license/mit/) and is free to use and modify. The tool is provided as-is and with no warranty. The authors and Atlas Public Policy make no guarantees about the accuracy of the tool or the results it produces. Support for the tool is limited. Please report bugs in the issues section of this repository. Current version: 0.2
 
