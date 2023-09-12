@@ -6,7 +6,7 @@ The EV Charging Cost Calculator is a python-based tool that calculates the utili
 
 The EV Rate Calculator is licensed under the [MIT License](https://opensource.org/license/mit/) and is free to use and modify. The tool is provided as-is and with no warranty. The authors and Atlas Public Policy make no guarantees about the accuracy of the tool or the results it produces. Support for the tool is limited. Please report bugs in the issues section of this repository. Current version: 0.2
 
-If you use the EV Rate Calculator in your work, please cite it as follows:
+If you use this calculator in your work, please cite it as follows:
 >Atlas Public Policy, 2023. EV Charging Cost Calculator (v0.2). Washington, DC. www.github.com/AtlasPublicPolicy/ev-rate-calculator.
 
 Funding for the development of this tool was generously provided by the National Resources Defense Council (NRDC).
