@@ -11,7 +11,9 @@ If you use the EV Rate Calculator in your work, please cite it as follows:
 
 Funding for the development of this tool was generously provided by the National Resources Defense Council (NRDC).
 
-The user guide for this tool is available [here](documentation/user-guide.md).
+* Download the latest release of the tool here: [ev-charging-cost-calculator-v0.2.zip](https://github.com/AtlasPublicPolicy/ev-charging-cost-calculator/archive/refs/tags/v0.2.zip) or from the [releases page](https://github.com/AtlasPublicPolicy/ev-charging-cost-calculator/releases/tag/v0.2)
+
+* The user guide for this tool is available [here](documentation/user-guide.md).
 
 ## Functionality
 The tool uses utility rates from the [OpenEI Utility Rate Database](https://openei.org/wiki/Utility_Rate_Database). The accuracy of this tool is dependent on the accuracy of the data in the OpenEI database. The tool is designed to be used with the OpenEI database as it exists at the time of the tool's release. Future updates to the OpenEI database may cause the tool to produce inaccurate results or fail. The tool is not designed to be used with custom rates that are not in the OpenEI database.
