@@ -1,10 +1,8 @@
 # EV Charging Cost Calculator Version 0.2
 
-**NOTE: THIS IS A DEVELOPMENT VERSION OF THIS TOOL**
-
 The EV Charging Cost Calculator is a python-based tool that calculates the electricity costs for charging a private electric vehicle (or fleet of electric vehicles on the same meter) or a public electric vehicle charging station. The main purpose of this tool is to enable cross-rate analyses of charging costs for any EV charging scenario. For example, it could be used to calculate the cost to operate a public DCFC charger across all supported utility rates available in the [OpenEI Utility Rate Database](https://openei.org/wiki/Utility_Rate_Database).
 
-The EV Rate Calculator is licensed under the [MIT License](https://opensource.org/license/mit/) and is free to use and modify. The tool is provided as-is and with no warranty. The authors and Atlas Public Policy make no guarantees about the accuracy of the tool or the results it produces. Support for the tool is limited. Please report bugs in the issues section of this repository. Current version: 0.2
+The EV Rate Calculator is licensed under the [MIT License](https://opensource.org/license/mit/) and is free to use and modify. 
 
 If you use this calculator in your work, please cite it as follows:
 >Atlas Public Policy, 2023. EV Charging Cost Calculator (v0.2). Washington, DC. www.github.com/AtlasPublicPolicy/ev-rate-calculator.
@@ -14,6 +12,10 @@ Funding for the development of this tool was generously provided by the National
 * Download the latest release of the tool here: [ev-charging-cost-calculator-v0.2.zip](https://github.com/AtlasPublicPolicy/ev-charging-cost-calculator/archive/refs/tags/v0.2.zip) or from the [releases page](https://github.com/AtlasPublicPolicy/ev-charging-cost-calculator/releases/tag/v0.2)
 
 * The user guide for this tool is available [here](documentation/user-guide.md).
+
+
+**Disclaimer: This tool has had limited testing. It may contain bugs and may not work on all systems. Further, the tool is provided as-is and with no warranty. The authors and Atlas Public Policy make no guarantees about the accuracy of the tool or the results it produces. Support for the tool is limited. Please report bugs in the issues section of this repository. Current version: 0.2**
+
 
 ## Functionality
 The tool uses utility rates from the [OpenEI Utility Rate Database](https://openei.org/wiki/Utility_Rate_Database). The accuracy of this tool is dependent on the accuracy of the data in the OpenEI database. The tool is designed to be used with the OpenEI database as it exists at the time of the tool's release. Future updates to the OpenEI database may cause the tool to produce inaccurate results or fail. The tool is not designed to be used with custom rates that are not in the OpenEI database.
