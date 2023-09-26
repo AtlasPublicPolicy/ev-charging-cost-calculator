@@ -16,7 +16,7 @@ Funding for the development of this tool was generously provided by the National
 
 *Disclaimer: This tool has had limited testing. It may contain bugs and may not work on all systems. Further, the tool is provided as-is and with no warranty. The authors and Atlas Public Policy make no guarantees about the accuracy of the tool or the results it produces. Support for the tool is limited. Please report bugs in the issues section of this repository. Current version: 0.2*
 
-The tool is flexible and supports a wide range of charging scenarios, from large fleet installations or high power charging sites to small fleets and individual vehicles. Thus, the tool does little to limit the types of rates included in its analysis. As documented in the user guide (insert link), users are responsible for filtering outputs to remove those rates not applicable to the use case they are modeling. Failure to limit results to applicable rates will result in invalid cost estimates.*
+*The tool is flexible and supports a wide range of charging scenarios, from large fleet installations or high power charging sites to small fleets and individual vehicles. Thus, the tool does little to limit the types of rates included in its analysis. As documented in the user guide (insert link), users are responsible for filtering outputs to remove those rates not applicable to the use case they are modeling. Failure to limit results to applicable rates will result in invalid cost estimates.*
 
 
 ## Functionality
